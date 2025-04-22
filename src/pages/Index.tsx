@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Section from '@/components/Section';
@@ -9,7 +8,7 @@ import ServiceCard from '@/components/ServiceCard';
 import ContactForm from '@/components/ContactForm';
 import ScrollToTop from '@/components/ScrollToTop';
 import { Button } from '@/components/ui/button';
-import { ArrowDown, Code, Image, LayoutDashboard, Whatsapp } from 'lucide-react';
+import { ArrowDown, Code, Image, LayoutDashboard, WhatsApp } from 'lucide-react';
 
 const Index = () => {
   useEffect(() => {
@@ -148,7 +147,7 @@ const Index = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Whatsapp size={20} />
+              <WhatsApp size={20} />
               Fale comigo no WhatsApp
             </a>
           </Button>
