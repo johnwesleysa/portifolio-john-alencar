@@ -10,6 +10,7 @@ import ScrollToTop from '@/components/ScrollToTop';
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Code, Image, LayoutDashboard } from 'lucide-react';
 import SkillBar from '@/components/SkillBar';
+import AboutSection from '@/components/AboutSection';
 
 const skills = [
   { skill: "Python", level: 80 },
