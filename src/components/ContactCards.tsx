@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Mail, Instagram, Whatsapp } from "lucide-react";
+import { Mail, Instagram, WhatsApp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ContactCards = () => {
@@ -17,7 +17,7 @@ const ContactCards = () => {
         </a>
       </div>
       <div className="flex-1 bg-background rounded-2xl shadow-xl p-8 flex flex-col items-center justify-center gap-4 hover:scale-105 transition-transform duration-300 hover:rotate-y-6" style={{ perspective: 1000 }}>
-        <Whatsapp size={38} className="text-green-500 mb-2" />
+        <WhatsApp size={38} className="text-green-500 mb-2" />
         <span className="text-base text-muted-foreground">WhatsApp:</span>
         <Button
           asChild
