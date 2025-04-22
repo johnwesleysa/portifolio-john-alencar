@@ -104,26 +104,7 @@ const Index = () => {
       </Section>
       
       {/* About Section */}
-      <Section id="sobre">
-        <SectionTitle 
-          title="Sobre Mim" 
-          subtitle="Conheça um pouco mais sobre minha trajetória e habilidades"
-        />
-        <div className="max-w-3xl mx-auto">
-          <p className="mb-4 text-lg text-center">
-            Com mais de 5 anos de experiência em desenvolvimento front-end e design digital, 
-            me dedico a criar soluções visuais que combinam estética e funcionalidade.
-          </p>
-          <p className="mb-4 text-lg text-center">
-            Meu foco é ajudar pequenos negócios e microempreendedores a terem presença digital 
-            profissional e acessível, traduzindo suas necessidades em experiências digitais impactantes.
-          </p>
-          <p className="text-lg text-center">
-            Sou especializado em desenvolvimento web front-end, criação de interfaces, 
-            identidade visual e produção de conteúdo para redes sociais.
-          </p>
-        </div>
-      </Section>
+      <AboutSection />
       
       {/* Projects Section */}
       <Section id="projetos" className="bg-secondary/30">
