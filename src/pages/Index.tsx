@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Section from '@/components/Section';
@@ -10,6 +9,16 @@ import ContactForm from '@/components/ContactForm';
 import ScrollToTop from '@/components/ScrollToTop';
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Code, Image, LayoutDashboard } from 'lucide-react';
+import SkillBar from '@/components/SkillBar';
+
+const skills = [
+  { skill: "Python", level: 80 },
+  { skill: "Django", level: 75 },
+  { skill: "React", level: 85 },
+  { skill: "C#", level: 70 },
+  { skill: ".NET", level: 65 },
+  { skill: "SQL", level: 60 },
+];
 
 const Index = () => {
   useEffect(() => {
@@ -74,6 +83,23 @@ const Index = () => {
               />
             </div>
           </div>
+        </div>
+      </Section>
+      
+      {/* Skills Section */}
+      <Section id="skills">
+        <SectionTitle
+          title="Skills & Tecnologias"
+          subtitle="Tecnologias que domino para criar soluções digitais"
+        />
+        <div className="max-w-2xl mx-auto">
+          {skills.map((item) => (
+            <SkillBar
+              key={item.skill}
+              skill={item.skill as any}
+              level={item.level}
+            />
+          ))}
         </div>
       </Section>
       
@@ -161,8 +187,7 @@ const Index = () => {
               >
                 <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
                 <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
-                <path d="M13.5 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
-                <path d="M9 13.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5Z" />
+                <path d="M13.5 10a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5Z" />
               </svg>
               Fale comigo no WhatsApp
             </a>
