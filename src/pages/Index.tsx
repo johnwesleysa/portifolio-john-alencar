@@ -135,13 +135,13 @@ const Index = () => {
             image="/images/barbearia-do-ze.png"
             title="Barbearia do Zé"
             description="Site one-page para barbearia tradicional, com agendamento online e galeria de fotos."
-            link="https://doce-encanto-lu.vercel.app/"
+            link="https://ze-barber-hub.vercel.app/"
           />
           <ProjectCard
             image="/images/delicias-da-lu.png"
             title="Delícias da Lu"
             description="Site responsivo para confeitaria artesanal com catálogo de produtos e sistema de pedidos."
-            link="https://ze-barber-hub.vercel.app/"
+            link="https://doce-encanto-lu.vercel.app/"
           />
         </div>
       </Section>
