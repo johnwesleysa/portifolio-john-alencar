@@ -10,11 +10,9 @@ type SocialIconsProps = {
 
 const SocialIcons = ({ className, iconSize = 18 }: SocialIconsProps) => {
   const socialLinks = [
-    { icon: Facebook, url: 'https://facebook.com', label: 'Facebook' },
-    { icon: Instagram, url: 'https://instagram.com', label: 'Instagram' },
-    { icon: Twitter, url: 'https://twitter.com', label: 'Twitter' },
-    { icon: Linkedin, url: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Github, url: 'https://github.com', label: 'Github' },
+    { icon: Instagram, url: 'https://instagram.com/johnalencarr', label: 'Instagram' },
+    { icon: Linkedin, url: 'https://www.linkedin.com/in/johnwesley47/', label: 'LinkedIn' },
+    { icon: Github, url: 'https://github.com/johnwesleysa', label: 'Github' },
   ];
 
   return (

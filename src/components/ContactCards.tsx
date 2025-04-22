@@ -13,7 +13,7 @@ const ContactCards = () => {
           href="mailto:contato@johnwesley.com"
           className="text-lg font-bold text-primary transition-colors hover:underline"
         >
-          contato@johnwesley.com
+          johnnalencarr@gmail.com
         </a>
       </div>
       <div className="flex-1 bg-background rounded-2xl shadow-xl p-8 flex flex-col items-center justify-center gap-4 hover:scale-105 transition-transform duration-300 hover:rotate-y-6" style={{ perspective: 1000 }}>
@@ -24,7 +24,7 @@ const ContactCards = () => {
           className="bg-green-500 hover:bg-green-600 px-6 py-2 rounded-xl shadow-lg hover-scale"
         >
           <a
-            href="https://wa.me/5511999999999?text=Olá,%20tenho%20interesse%20nos%20seus%20serviços!"
+            href="https://wa.me/5581996430199?text=Olá,%20tenho%20interesse%20nos%20seus%20serviços!%20Acabei%20de%20vim%20do%20seu%20site!"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -40,11 +40,11 @@ const ContactCards = () => {
           className="bg-gradient-to-r from-primary to-pink-500 px-6 py-2 rounded-xl text-white shadow-lg hover-scale"
         >
           <a
-            href="https://instagram.com/seuusuario"
+            href="https://instagram.com/johnalencarr"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @seuusuario
+            @johnalencarr
           </a>
         </Button>
       </div>

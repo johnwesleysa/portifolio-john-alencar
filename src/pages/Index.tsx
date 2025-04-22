@@ -15,17 +15,17 @@ import ContactCards from '@/components/ContactCards';
 
 const skills = [
   { skill: "Python", level: 80 },
+  { skill: "HTML", level: 80 },
+  { skill: "CSS", level: 80 },
   { skill: "Django", level: 75 },
-  { skill: "React", level: 85 },
-  { skill: "C#", level: 70 },
-  { skill: ".NET", level: 65 },
-  { skill: "SQL", level: 60 },
-  { skill: "JavaScript", level: 85 },
-  { skill: "TypeScript", level: 80 },
-  { skill: "HTML", level: 94 },
-  { skill: "CSS", level: 91 },
-  { skill: "Figma", level: 75 },
-  { skill: "Tailwind", level: 82 },
+  { skill: "React", level: 70 },
+  { skill: "JavaScript", level: 70 },
+  { skill: "TypeScript", level: 70 },
+  { skill: "Tailwind", level: 70 },
+  { skill: "C#", level: 60 },
+  { skill: "Next.js", level: 40 },
+  { skill: "SQL", level: 50 },
+  { skill: ".NET", level: 30 },
 ];
 
 const Index = () => {
@@ -55,43 +55,53 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground font-sans">
       <Navbar />
       {/* Hero Section */}
-      <Section id="home" fullHeight className="relative pt-20 animate-scale-in">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+      <Section
+        id="home"
+        fullHeight
+        className="relative min-h-screen flex items-center pt-10 overflow-hidden"
+      >
+        {/* IMAGEM BACKGROUND COMPOSIÇÃO */}
+        <img
+          src="/images/perfil-home.png"
+          alt="John Wesley"
+          className="hidden md:block absolute bottom-0 right-[-40px] sm:right-0 md:right-12 lg:right-24 xl:right-40 2xl:right-56 h-full max-h-[90vh] object-contain z-0 pointer-events-none select-none"
+        />
+
+        {/* CONTEÚDO EM PRIMEIRO PLANO */}
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
             <div className="w-20 h-1 bg-primary mx-auto md:mx-0"></div>
             <h1 className="text-4xl md:text-6xl font-bold font-heading animate-fade-in">
-              Olá, eu sou <span className="text-gradient animate-[pulse_2s_cubic-bezier(0.4,0,0.6,1)_infinite]">John Wesley</span>
+              Olá, eu sou{" "}
+              <span className="text-gradient animate-[pulse_2s_cubic-bezier(0.4,0,0.6,1)_infinite]">
+                John Wesley
+              </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground animate-slide-in">
               Crio sites e experiências visuais para microempreendedores e pequenos negócios
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Button 
+              <Button
                 size="lg"
                 className="bg-primary hover:bg-primary/90 group hover-scale"
                 asChild
               >
                 <a href="#projetos">
                   Ver Portfólio
-                  <ArrowDown className="ml-2 transition-transform group-hover:translate-y-1" size={18} />
+                  <ArrowDown
+                    className="ml-2 transition-transform group-hover:translate-y-1"
+                    size={18}
+                  />
                 </a>
               </Button>
               <SocialIcons className="justify-center md:justify-start" />
             </div>
           </div>
-          <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-            <div className="relative hover-scale" style={{ perspective: '1200px' }}>
-              <div className="absolute -inset-4 rounded-lg bg-primary/20 blur-xl"></div>
-              <img
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
-                alt="John Wesley"
-                className="relative z-10 w-64 h-64 md:w-80 md:h-80 object-cover rounded-lg shadow-2xl transition-transform duration-500 hover:rotate-y-12"
-                style={{ transformStyle: 'preserve-3d' }}
-              />
-            </div>
-          </div>
         </div>
       </Section>
+
+
+
       
       {/* About Section */}
       <AboutSection />
@@ -122,16 +132,16 @@ const Index = () => {
         />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10">
           <ProjectCard
-            image="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05"
+            image="/images/barbearia-do-ze.png"
             title="Barbearia do Zé"
             description="Site one-page para barbearia tradicional, com agendamento online e galeria de fotos."
-            link="#"
+            link="https://doce-encanto-lu.vercel.app/"
           />
           <ProjectCard
-            image="https://images.unsplash.com/photo-1501854140801-50d01698950b"
+            image="/images/delicias-da-lu.png"
             title="Delícias da Lu"
             description="Site responsivo para confeitaria artesanal com catálogo de produtos e sistema de pedidos."
-            link="#"
+            link="https://ze-barber-hub.vercel.app/"
           />
         </div>
       </Section>
@@ -159,7 +169,7 @@ const Index = () => {
             asChild
           >
             <a 
-              href="https://wa.me/5511999999999?text=Olá,%20tenho%20interesse%20nos%20seus%20serviços!" 
+              href="https://wa.me/5581996430199?text=Olá,%20tenho%20interesse%20nos%20seus%20serviços!%20Acabei%20de%20vim%20do%20seu%20site!" 
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -196,7 +206,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 text-center text-sm text-muted-foreground border-t border-secondary">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} John Wesley. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} John Alencar. Todos os direitos reservados.</p>
         </div>
       </footer>
       

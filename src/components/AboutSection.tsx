@@ -3,8 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import SectionTitle from "@/components/SectionTitle";
 
-const aboutImg =
-  "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&q=80";
+const aboutImg = "/images/about.png";;
 
 const AboutSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);
