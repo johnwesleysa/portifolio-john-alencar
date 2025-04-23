@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="container flex justify-between items-center">
         <a href="#" className="flex items-center gap-2 font-heading">
           <span className="text-primary font-bold text-2xl">&lt;/&gt;</span>
-          <span className="font-bold text-xl">John Wesley</span>
+          <span className="font-bold text-xl">John alencar</span>
         </a>
         
         <Button

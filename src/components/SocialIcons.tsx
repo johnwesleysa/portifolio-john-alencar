@@ -11,8 +11,8 @@ type SocialIconsProps = {
 const SocialIcons = ({ className, iconSize = 18 }: SocialIconsProps) => {
   const socialLinks = [
     { icon: Instagram, url: 'https://instagram.com/johnalencarr', label: 'Instagram' },
-    { icon: Linkedin, url: 'https://www.linkedin.com/in/johnwesley47/', label: 'LinkedIn' },
-    { icon: Github, url: 'https://github.com/johnwesleysa', label: 'Github' },
+    { icon: Linkedin, url: 'https://www.linkedin.com/in/johnalencar47/', label: 'LinkedIn' },
+    { icon: Github, url: 'https://github.com/johnalencarsa', label: 'Github' },
   ];
 
   return (

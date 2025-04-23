@@ -41,7 +41,7 @@ const AboutSection = () => {
         >
           <motion.img
             src={aboutImg}
-            alt="John Wesley"
+            alt="John alencar"
             className="rounded-[36px] object-cover shadow-2xl w-[320px] h-[480px] md:w-[360px] md:h-[540px]"
             style={{ rotateY, scale }}
           />
@@ -62,7 +62,7 @@ const AboutSection = () => {
             className="text-xl md:text-2xl leading-relaxed font-bold bg-gradient-to-r from-primary/80 via-purple-400/60 to-pink-500/60 bg-clip-text text-transparent drop-shadow-xl animate-fade-in"
             style={{ opacity: useTransform(scrollYProgress, [0, 0.1, 1], [0, 1, 1]) }}
           >
-            Olá! Eu sou John Wesley, desenvolvedor & designer apaixonado, criando experiências digitais personalizadas para pequenos negócios e grandes ideias.
+            Olá! Eu sou John alencar, desenvolvedor & designer apaixonado, criando experiências digitais personalizadas para pequenos negócios e grandes ideias.
           </motion.p>
           <motion.p
             className="text-lg md:text-xl text-zinc-300 animate-fade-in"

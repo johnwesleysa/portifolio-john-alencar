@@ -30,7 +30,7 @@ const skills = [
 
 const Index = () => {
   useEffect(() => {
-    document.title = "John Wesley - Desenvolvedor Front-End";
+    document.title = "John Alencar - Desenvolvedor Front-End";
   }, []);
 
   const services = [
@@ -63,7 +63,7 @@ const Index = () => {
         {/* IMAGEM BACKGROUND COMPOSIÇÃO */}
         <img
           src="/images/perfil-home.png"
-          alt="John Wesley"
+          alt="John alencar"
           className="hidden md:block absolute bottom-0 right-[-40px] sm:right-0 md:right-12 lg:right-24 xl:right-40 2xl:right-56 h-full max-h-[90vh] object-contain z-0 pointer-events-none select-none"
         />
 
@@ -74,7 +74,7 @@ const Index = () => {
             <h1 className="text-4xl md:text-6xl font-bold font-heading animate-fade-in">
               Olá, eu sou{" "}
               <span className="text-gradient animate-[pulse_2s_cubic-bezier(0.4,0,0.6,1)_infinite]">
-                John Wesley
+                John alencar
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground animate-slide-in">

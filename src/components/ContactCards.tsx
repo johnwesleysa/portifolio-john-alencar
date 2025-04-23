@@ -10,7 +10,7 @@ const ContactCards = () => {
         <Mail size={38} className="text-primary mb-2" />
         <span className="text-base text-muted-foreground">E-mail:</span>
         <a
-          href="mailto:contato@johnwesley.com"
+          href="mailto:contato@johnalencar.com"
           className="text-lg font-bold text-primary transition-colors hover:underline"
         >
           johnnalencarr@gmail.com
