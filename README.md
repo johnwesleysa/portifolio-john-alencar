@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+# 🧑‍💻 Meu Portfólio - John Alencar
 
-## Project info
+Este é o meu portfólio profissional como desenvolvedor. Aqui eu apresento alguns dos principais projetos que desenvolvi, as tecnologias que domino e um pouco da minha trajetória na área de programação.
 
-**URL**: https://lovable.dev/projects/6f03a4ea-147a-4cd0-ae75-4f5f6c366949
+O site foi criado com foco em simplicidade, performance e responsividade — e funciona como uma vitrine digital do que sei fazer.
 
-## How can I edit this code?
+🔗 Acesse online:  
+👉 [https://portifolio-john-alencar.vercel.app](https://portifolio-john-alencar.vercel.app)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Funcionalidades
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6f03a4ea-147a-4cd0-ae75-4f5f6c366949) and start prompting.
+- Lista dos meus projetos com detalhes técnicos
+- Seção "Sobre Mim" contando um pouco da minha experiência
+- Botão de contato direto via WhatsApp
+- Design responsivo (funciona bem em qualquer dispositivo)
+- Interface limpa, rápida e moderna
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ⚙️ Tecnologias que usei
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- ⚛️ React
+- 🎨 Tailwind CSS
+- ⚡ Vite
+- 🧠 TypeScript
+- 💡 **Lovable.dev** como base para prototipagem rápida
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🚀 Como rodar o projeto localmente
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Se quiser rodar o projeto na sua máquina, siga estes passos:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# 1. Clone o repositório
+git clone https://github.com/SEU_USUARIO/portifolio-john-alencar.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 2. Entre na pasta do projeto
+cd portifolio-john-alencar
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6f03a4ea-147a-4cd0-ae75-4f5f6c366949) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
